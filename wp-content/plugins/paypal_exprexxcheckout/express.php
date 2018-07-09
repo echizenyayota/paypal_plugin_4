@@ -79,7 +79,7 @@ class PayPal_ExpressCheckout {
     // 設定項目と無害化用コールバックの登録
     register_setting(
       'paypal-settings-group',
-      'paypal_option_name',
+      'my_option_name',
       array( $this, 'sanitize' ),
       'my-setting-admin'
     );
