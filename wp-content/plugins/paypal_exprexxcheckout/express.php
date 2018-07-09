@@ -27,7 +27,15 @@ class PayPal_ExpressCheckout {
 
   // checkout.jsの読み込み
   public function paypal_scripts() {
-    
+    wp_enqueue_script( 'paypal-checkout', 'https://www.paypalobjects.com/api/checkout.js' );
+  }
+
+  public function paypalexpresscheckout_add_admin_menu() {
+
+  }
+
+  public function register_paypalsettings() {
+
   }
 
 
