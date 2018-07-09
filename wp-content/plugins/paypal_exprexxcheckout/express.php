@@ -30,8 +30,15 @@ class PayPal_ExpressCheckout {
     wp_enqueue_script( 'paypal-checkout', 'https://www.paypalobjects.com/api/checkout.js' );
   }
 
+  // 設定メニューページにサブメニューページを追加する
   public function paypalexpresscheckout_add_admin_menu() {
-
+    add_options_page(
+        'Settings Admin',
+        'PayPal ExpressCheckout Settings Page',
+        'manage_options',
+        'my-setting-admin',
+        array( $this, 'create_admin_page' )
+    );
   }
 
   public function register_paypalsettings() {
