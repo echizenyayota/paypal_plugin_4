@@ -22,7 +22,7 @@ class PayPal_ExpressCheckout {
   public function __construct() {
     add_action( 'wp_enqueue_scripts', array($this, 'paypal_scripts' );
     add_action( 'admin_menu', array($this, 'paypalexpresscheckout_add_admin_menu') );
-    add_action( 'admin_init', array($this, 'register_paypalsettings') );
+    add_action( 'admin_init', array($this, 'page_init') );
   }
 
   // checkout.jsの読み込み
@@ -74,7 +74,7 @@ class PayPal_ExpressCheckout {
    <?php
   }
 
-  public function register_paypalsettings() {
+  public function page_init() {
 
   }
 
