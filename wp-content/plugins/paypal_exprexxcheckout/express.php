@@ -18,3 +18,5 @@ class PayPal_ExpressCheckout {
 
 
 }
+
+require(__DIR__ . '/express_admin.php');
