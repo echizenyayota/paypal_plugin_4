@@ -12,3 +12,9 @@ Author URI: https://e-yota.com
 License: GPLv2 or later
 Text Domain: paypal_expresscheckout
 */
+
+class PayPal_ExpressCheckout {
+
+
+
+}
