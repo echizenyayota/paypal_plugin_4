@@ -123,6 +123,11 @@ class PayPal_ExpressCheckout {
     return $new_input;
   }
 
+  // 文字列の出力
+  public function print_section_info() {
+    print 'Enter your settings below:';
+  }
+
 
 
 }
