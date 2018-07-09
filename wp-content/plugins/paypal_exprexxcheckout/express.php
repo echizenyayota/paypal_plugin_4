@@ -108,6 +108,21 @@ class PayPal_ExpressCheckout {
     );
   }
 
+  // 入力値のサニタイズ
+  public function sanitize( $input ) {
+    $new_input = array();
+    // 特殊文字のサニタイズ
+    if( isset( $input['env'] ) ){
+      $new_input['env'] = sanitize_text_field( $input['env'] );
+    }
+    // 特殊文字のサニタイズ
+    if( isset( $input['client'] ) ){
+      $new_input['client'] = sanitize_text_field( $input['client'] );
+    }
+    // 配列値で結果を返す
+    return $new_input;
+  }
+
 
 
 }
