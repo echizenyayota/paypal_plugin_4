@@ -11,3 +11,8 @@
 [09-Jul-2018 06:25:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 24
 [09-Jul-2018 06:26:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 24
 [09-Jul-2018 06:27:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 24
+[09-Jul-2018 06:29:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 24
+[09-Jul-2018 06:31:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 23
+[09-Jul-2018 06:32:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 23
+[09-Jul-2018 06:34:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 23
+[09-Jul-2018 06:35:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 23
