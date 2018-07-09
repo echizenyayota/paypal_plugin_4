@@ -20,7 +20,7 @@ class PayPal_ExpressCheckout {
 
   // コンストラクタによる初期化
   public function __construct() {
-    add_action( 'wp_enqueue_scripts', array($this, 'paypal_scripts' );
+    add_action( 'wp_enqueue_scripts', array($this, 'paypal_scripts' ));
     add_action( 'admin_menu', array($this, 'paypalexpresscheckout_add_admin_menu') );
     add_action( 'admin_init', array($this, 'page_init') );
   }
@@ -76,6 +76,35 @@ class PayPal_ExpressCheckout {
 
   public function page_init() {
 
+    // 設定項目と無害化用コールバックの登録
+    register_setting(
+      'paypal-settings-group',
+      'paypal_option_name',
+      array( $this, 'sanitize' ),
+      'my-setting-admin'
+    );
+    // 設定をまとめる
+    add_settings_section(
+      'setting_section_id',
+      'PayPal ExpressCheckout Custom Settings',
+      'my-setting-admin'
+    );
+    // 設定項目の追加(実行環境)
+    add_settings_field(
+      'env',
+      'Enviroment',
+      array( $this, 'id_number_callback' ),
+      'my-setting-admin',
+      'setting_section_id'
+    );
+    // 設定項目の追加(clientID)
+    add_settings_field(
+      'client',
+      'client ID',
+      array( $this, 'title_callback' ),
+      'my-setting-admin',
+      'setting_section_id'
+    );
   }
 
 
