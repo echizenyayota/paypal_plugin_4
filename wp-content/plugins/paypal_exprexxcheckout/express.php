@@ -87,6 +87,7 @@ class PayPal_ExpressCheckout {
     add_settings_section(
       'setting_section_id',
       'PayPal ExpressCheckout Custom Settings',
+      array( $this, 'print_section_info' ),
       'my-setting-admin'
     );
     // 設定項目の追加(実行環境)
@@ -105,6 +106,21 @@ class PayPal_ExpressCheckout {
       'my-setting-admin',
       'setting_section_id'
     );
+  }
+
+  // 入力値のサニタイズ
+  public function sanitize( $input ) {
+    $new_input = array();
+    // 入力値を絶対値の数値にする
+    if( isset( $input['env'] ) ){
+      $new_input['env'] = sanitize_text_field( $input['env'] );
+    }
+    // 特殊文字のサニタイズ
+    if( isset( $input['client'] ) ){
+      $new_input['client'] = sanitize_text_field( $input['client'] );
+    }
+    // 配列値で結果を返す
+    return $new_input;
   }
 
 

@@ -554,3 +554,316 @@
 [09-Jul-2018 08:07:31 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
 [09-Jul-2018 08:07:31 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
 [09-Jul-2018 08:07:31 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:29:40 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:29:40 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:29:40 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:29:40 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:29:40 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:29:40 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:29:40 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:29:40 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:29:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-admin/includes/template.php:1224) in /var/www/wordpress/wp-admin/includes/misc.php on line 1124
+[09-Jul-2018 09:29:40 UTC] PHP Stack trace:
+[09-Jul-2018 09:29:40 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:29:40 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:29:40 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:29:40 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:29:40 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:29:40 UTC] PHP   6. wp_admin_headers() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:29:40 UTC] PHP   7. header() /var/www/wordpress/wp-admin/includes/misc.php:1124
+[09-Jul-2018 09:30:43 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:30:43 UTC] PHP Stack trace:
+[09-Jul-2018 09:30:43 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:30:43 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:30:43 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:30:43 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:30:43 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:30:43 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:30:43 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:30:43 UTC] PHP Stack trace:
+[09-Jul-2018 09:30:43 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:30:43 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:30:43 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:30:43 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:30:43 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:30:43 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:30:43 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:30:43 UTC] PHP Stack trace:
+[09-Jul-2018 09:30:43 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:30:43 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:30:43 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:30:43 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:30:43 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:30:43 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:30:43 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:30:43 UTC] PHP Stack trace:
+[09-Jul-2018 09:30:43 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:30:43 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:30:43 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:30:43 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:30:43 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:30:43 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:31:12 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:31:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:31:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:31:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:31:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:31:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:31:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:31:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:31:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:31:12 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:31:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:31:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:31:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:31:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:31:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:31:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:31:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:31:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:31:12 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:31:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:31:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:31:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:31:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:31:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:31:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:31:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:31:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:31:12 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:31:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:31:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:31:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:31:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:31:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:31:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:31:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:31:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:31:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-admin/includes/template.php:1224) in /var/www/wordpress/wp-admin/includes/misc.php on line 1124
+[09-Jul-2018 09:31:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:31:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:31:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:31:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:31:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:31:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:31:12 UTC] PHP   6. wp_admin_headers() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:31:12 UTC] PHP   7. header() /var/www/wordpress/wp-admin/includes/misc.php:1124
+[09-Jul-2018 09:32:16 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:32:16 UTC] PHP Stack trace:
+[09-Jul-2018 09:32:16 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:32:16 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:32:16 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:32:16 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:32:16 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:32:16 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:32:16 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:32:16 UTC] PHP Stack trace:
+[09-Jul-2018 09:32:16 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:32:16 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:32:16 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:32:16 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:32:16 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:32:16 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:32:16 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:32:16 UTC] PHP Stack trace:
+[09-Jul-2018 09:32:16 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:32:16 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:32:16 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:32:16 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:32:16 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:32:16 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:32:16 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:32:16 UTC] PHP Stack trace:
+[09-Jul-2018 09:32:16 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:32:16 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:32:16 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:32:16 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:32:16 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:32:16 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:33:12 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:33:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:33:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:33:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:33:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:33:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:33:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:33:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:33:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:33:12 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:33:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:33:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:33:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:33:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:33:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:33:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:33:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:33:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:33:12 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:33:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:33:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:33:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:33:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:33:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:33:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:33:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:33:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:33:12 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:33:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:33:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:33:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:33:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:33:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:33:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:33:12 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:33:12 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:33:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-admin/includes/template.php:1224) in /var/www/wordpress/wp-admin/includes/misc.php on line 1124
+[09-Jul-2018 09:33:12 UTC] PHP Stack trace:
+[09-Jul-2018 09:33:12 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:33:12 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:33:12 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:33:12 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:33:12 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:33:12 UTC] PHP   6. wp_admin_headers() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:33:12 UTC] PHP   7. header() /var/www/wordpress/wp-admin/includes/misc.php:1124
+[09-Jul-2018 09:34:14 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:34:14 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:14 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:34:14 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:34:14 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:14 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:14 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:14 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:14 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:34:14 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:14 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:34:14 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:34:14 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:14 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:14 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:14 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:14 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:34:14 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:14 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:34:14 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:34:14 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:14 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:14 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:14 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:14 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:34:14 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:14 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[09-Jul-2018 09:34:14 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[09-Jul-2018 09:34:14 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:14 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:14 UTC] PHP   5. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:14 UTC] PHP   6. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:19 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php on line 90 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[09-Jul-2018 09:34:19 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:19 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:34:19 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:34:19 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:34:19 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:19 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:19 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:19 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:19 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[09-Jul-2018 09:34:19 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:19 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:34:19 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:34:19 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:34:19 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:19 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:19 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:19 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:19 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[09-Jul-2018 09:34:19 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:19 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:34:19 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:34:19 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:34:19 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:19 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:19 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:19 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:19 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[09-Jul-2018 09:34:19 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:19 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:34:19 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:34:19 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:34:19 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:19 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:19 UTC] PHP   6. PayPal_ExpressCheckout->page_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:19 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/paypal_exprexxcheckout/express.php:90
+[09-Jul-2018 09:34:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-admin/includes/template.php:1224) in /var/www/wordpress/wp-admin/includes/misc.php on line 1124
+[09-Jul-2018 09:34:19 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:19 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:34:19 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-Jul-2018 09:34:19 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[09-Jul-2018 09:34:19 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-Jul-2018 09:34:19 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-Jul-2018 09:34:19 UTC] PHP   6. wp_admin_headers() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-Jul-2018 09:34:19 UTC] PHP   7. header() /var/www/wordpress/wp-admin/includes/misc.php:1124
+[09-Jul-2018 09:34:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-admin/includes/template.php:1224) in /var/www/wordpress/wp-includes/pluggable.php on line 1219
+[09-Jul-2018 09:34:19 UTC] PHP Stack trace:
+[09-Jul-2018 09:34:19 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-Jul-2018 09:34:19 UTC] PHP   2. wp_redirect() /var/www/wordpress/wp-admin/plugins.php:69
+[09-Jul-2018 09:34:19 UTC] PHP   3. header() /var/www/wordpress/wp-includes/pluggable.php:1219
